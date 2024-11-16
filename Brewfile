@@ -9,6 +9,7 @@ brew 'git'
 brew 'nvm'
 brew 'jenv'
 brew 'mkcert'
+brew 'starship'
 
 cask 'mysqlworkbench'
 cask 'sublime-text'
