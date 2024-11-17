@@ -1,0 +1,7 @@
+Host bitbucket.org
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/lobbie_bitbucket
+Host github.com
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/github-modal-mbp
+
