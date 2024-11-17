@@ -1,4 +1,4 @@
-cask_args appdir: '/Applications
+cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
@@ -11,6 +11,9 @@ brew 'jenv'
 brew 'mkcert'
 brew 'starship'
 
+cask 'font-fantasque-sans-mono-nerd-font'
+cask 'font-fira-code-nerd-font'
+cask 'font-fira-mono-nerd-font'
 cask 'mysqlworkbench'
 cask 'sublime-text'
 cask 'corretto@17'

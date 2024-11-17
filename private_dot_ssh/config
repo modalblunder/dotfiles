@@ -1,7 +1,11 @@
-Host bitbucket.org
+Host amethyst.bitbucket.org
+  HostName bitbucket.org
   AddKeysToAgent yes
-  IdentityFile ~/.ssh/lobbie_bitbucket
-Host github.com
-  AddKeysToAgent yes
-  IdentityFile ~/.ssh/github-modal-mbp
+  IdentityFile ~/.ssh/amethyst-bitbucket
+  IdentitiesOnly yes
 
+Host amethyst.github.com
+  HostName github.com
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/amethyst-github
+  IdentitiesOnly yes
